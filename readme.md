@@ -10,10 +10,10 @@ En el archivo .env , se guarda la API KEY y SECRET KEY
 
 # Lista de comandos
 
-1) a cantidadComprar 
+-a cantidadComprar 
   Realiza compra market, con cantidad dada *
 
-2) d cantidadCompra precioLimiteCompra
+- d cantidadCompra precioLimiteCompra
   Compra limit con candidad de compra *
 
 3) s cantidadVenta
