@@ -57,3 +57,6 @@ En el archivo .env , se guarda la API KEY y SECRET KEY
 4) t cantidadAGastar precioLimiteVenta
   - compra con cantidad de activos a gastar a precio de  mercado
   - crea orden limite de venta con el precio dado y cantidad comprada
+
+![foto](img/binance_list_op.png)
+![foto](img/binan_buylimit.png)
