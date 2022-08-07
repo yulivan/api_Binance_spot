@@ -1,0 +1,19 @@
+{
+  "name": "api_spot_binance",
+  "version": "1.0.0",
+  "description": "Programa de consola usando la API de Binance, session de Spot",
+  "main": "app.js",
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "IngSoftware",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.1",
+    "inquirer": "^8.2.4",
+    "inquirer-prompt-suggest": "^0.1.0",
+    "node-binance-api": "^0.13.1"
+  }
+}
