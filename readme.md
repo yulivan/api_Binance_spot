@@ -17,6 +17,8 @@ En el archivo .env , se guarda la API KEY y SECRET KEY
 2) d cantidadCompra precioLimiteCompra
 
   Compra limit con candidad de compra *
+  
+  ![foto](img/binan_comand.png)
 
 3) s cantidadVenta
 
