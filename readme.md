@@ -1,9 +1,12 @@
 # Binance API (Spot Trading)
 
+
 Programa de consola usando la API de Binance, session de Spot
 ver historial de comandos con tecla tab
 
 En el archivo .env , se guarda la API KEY y SECRET KEY
+
+![foto](img/binan_init.png)
 
 # Lista de comandos
 
