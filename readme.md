@@ -60,3 +60,4 @@ En el archivo .env , se guarda la API KEY y SECRET KEY
 
 ![foto](img/binance_list_op.png)
 ![foto](img/binan_buylimit.png)
+![foto](img/binan_cancel.png)
