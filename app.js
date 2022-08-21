@@ -508,8 +508,8 @@ const init = async () =>{
                     var arrayOrders = [];
                     for (var i = 0; i < resList.length; i++) {
                         var order = resList[i];
-                        var newCol = order.orderId+" "+order.symbol+'/'+order.side+'/'+order.type+" price "+order.price+" qty "+order.origQty;
-                        // order.trade = newCol;
+                        var newCol = order.orderId+" "+order.symbol+' '+order.side+'/'+order.type+" price "+order.price+" qty "+order.origQty;
+                        
                         arrayOrders.push(newCol);
                     }
                     arrayOrders.push('Salir');
@@ -531,7 +531,8 @@ const init = async () =>{
                         if(op != 'Salir'){
                             var id = op.split(' ');
                             var orderid = parseFloat(id[0])
-                            const resCancel = await binance.cancel(market, orderid);
+                            var orderSymbol = id[1]
+                            const resCancel = await binance.cancel(orderSymbol, orderid);
                         // ---
                         if(typeof resCancel == 'object'){
                             msgHistory = 'Orden Cancelada\n'.green;
