@@ -535,7 +535,7 @@ const init = async () =>{
                             const resCancel = await binance.cancel(orderSymbol, orderid);
                         // ---
                         if(typeof resCancel == 'object'){
-                            msgHistory = 'Orden Cancelada\n'.green;
+                            msgHistory = 'Orden Cancelada '.green+resCancel.status+'\n';
                             msgHistory += 'Symbol: '+resCancel.symbol+'\n';
                             msgHistory += 'Type: '+resCancel.type+'\n';
                             msgHistory += 'Price: '+resCancel.price+'\n';
